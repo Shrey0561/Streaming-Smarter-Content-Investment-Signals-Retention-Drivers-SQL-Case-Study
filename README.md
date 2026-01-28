@@ -22,7 +22,7 @@ Snapshot of SQL queries used for data cleaning and segmentation, including genre
  * [Overview](#overview)
  * [Tools Used](#tools-used)
  * [Key Business Questions & Insights](#key-business-questions--insights)
- * [Case Study - Full Walkthrough](#case-study--full--walkthrough)
+ * [Case Study - Full Walkthrough](#case-study-full-walkthrough)
  * [What I'd Explore Next](#what-id-explore-next)
  * [What This Project Demonstrates](#what-this-project-demonstrates)
  * [Let's Connect](#lets-connect)
