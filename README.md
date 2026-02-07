@@ -1,17 +1,12 @@
-# Streaming Smarter: Netflix Content Strategy & Retention Signals (SQL)
+# Streaming Smarter: Content Investment Signals & Retention Drivers (SQL Case Study)
 > This project simulates a real-world scenario: what a content analyst might uncover when exploring Netflix's catalog using only SQL.
 
 ## TL;DR
-**Problem:** Netflix needs to understand what types of content signal global growth and retention potential.
+**Problem:** Netflix must prioritize content investments that support global growth and long-term viewer retention, but content signals are scattered across metadata.
 
-**Process:** Queried and cleaned **8,800+ titles** using SQL to analyze trends in genres, production countries, season longevity, and data quality.
+**Process:** Used **SQL** to clean and segment **8,800+** titles by genre mix, production geography, longevity, and catalog consistency to uncover scalable patterns.
 
-**Result:** 
-- Identified **Action & Drama** as globally scalable content
-- Flagged data quality gaps (e.g., missing dates, inconsistent country labels)
-- Highlighted **India and South Korea** as rising content producers
-
-**Takeaway:** SQL-driven content analytics can guide smarter platform investments without advanced BI tools.
+**Result:** Identified internationally scalable genres (Action, Drama), emerging production hubs (India, South Korea), and long-running TV formats as retention anchors, while uncovering data gaps that could distort strategic decisions.
 
 ## SQL Queries Preview 
 Snapshot of SQL queries used for data cleaning and segmentation, including genre counts, production-country trends, and title longevity. 
@@ -22,7 +17,6 @@ Snapshot of SQL queries used for data cleaning and segmentation, including genre
  * [Overview](#overview)
  * [Tools Used](#tools-used)
  * [Key Business Questions & Insights](#key-business-questions--insights)
- * [Case Study - Full Walkthrough](#case-study-full-walkthrough)
  * [What I'd Explore Next](#what-id-explore-next)
  * [What This Project Demonstrates](#what-this-project-demonstrates)
  * [Let's Connect](#lets-connect)
@@ -38,7 +32,7 @@ This project investigates Netflix's content strategy and global expansion patter
 ## Key Business Questions & Insights
 
 **📈 Peak Content Growth Year** 
-- **2018:** 1,144 titles -> expansion linked to global growth strategy
+- **2018:** spike suggests aggressive global catalog expansion aligned with subscriber growth strategy.
 
 **🌍 Top Content-Producing Countries**
  - USA: **2,806 titles**
@@ -48,7 +42,7 @@ This project investigates Netflix's content strategy and global expansion patter
 **🎬 Content Type Split**
  - Movies: **6,119 titles**
  - TV Shows: **2,674 titles**
- - **Insight**: Movies still dominate, but TV is rising as binge behavior grows
+ - **Insight**: While movies dominate volume, long-running TV shows present stronger binge-retention signals.
 
 **🎭 Top Genres**
 
@@ -59,7 +53,7 @@ This project investigates Netflix's content strategy and global expansion patter
 | Stand-Up Comedy                                   | 334                                |
 
 
-**Insight:** Drama & international focus show Netflix's global-first strategy
+**Insight:** International drama formats appear to serve as scalable cross-border retention drivers.
 
 **🎥 Most Frequent Directors**
 
@@ -93,12 +87,14 @@ This project investigates Netflix's content strategy and global expansion patter
 | Cast             | 825                   |
 
 **Observation:** Cleaning is essential even on high-profile public datasets.
-> *Overall Takeaway:* These insights act as early indicators of what content categories are likely to support, engagement, and long-term platform retention.
 
-## Case Study - Full Walkthrough
-Covers the SQL logic, insights, and recommendations behind each query block, and connects the outputs to real-world content strategy decisions Netflix might explore.
+> **Overall Takeaway:** These insights act as early indicators of what content categories are likely to support engagement and long-term platform retention.
 
-[View the full case study](https://docs.google.com/document/d/1v0nIUuxNxiTiPsNWtdvXeOKIJabTFmtJuQ1BOnej7pw/edit?usp=sharing)
+## Strategic Implications
+* Invest in international drama and action formats for scalable growth.
+* Expand long-running serialized content to strengthen binge retention.
+* Standardize metadata governance to improve investment forecasting accuracy.
+* Prioritize emerging production markets (e.g., India, South Korea) for cost-efficient global expansion.
 
 ## What I'd Explore Next
 In a future version of this project, I would:
@@ -107,10 +103,10 @@ In a future version of this project, I would:
 - Begin testing a Python model to predict binge-worthy content combinations
 
 ## What This Project Demonstrates
-- Ability to derive business insights using SQL without BI tools
-- Exposure to real-world data cleaning and exploratory analysis
-- Understanding of how content trends link to strategic decisions
-- Interest in streaming/media analytics and early-career SQL application
+- Ability to translate content metadata into strategic investment signals
+- Understanding of how catalog structure influences retention and global expansion
+- Experience linking descriptive content trends to decision-support frameworks
+- SQL-driven analytical thinking without reliance on BI tools
 - Ability to use content attributes as proxies for retention and engagement when direct user data is unavailable.
 
 ## Let's Connect
